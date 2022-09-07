@@ -1,6 +1,11 @@
 {
+  "Navigation": {
+    "logo": "./logos/futura-casa-365.png",
+    "title": "Futua Casa 365 logo"
+  },
   "Header": {
-    "title": "We are a Landing Page",
+    "title": "Cada familia merece ",
+    "subtitle": "Encuentra la casa de tus sueños",
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
   },
   "About": {

@@ -10,7 +10,20 @@ import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
+
+//stylesheet
 import "./App.css";
+
+//fonts
+import "./fonts/Ubuntu-Bold.ttf";
+import "./fonts/Ubuntu-BoldItalic.ttf";
+import "./fonts/Ubuntu-Italic.ttf";
+import "./fonts/Ubuntu-Light.ttf";
+import "./fonts/Ubuntu-LightItalic.ttf";
+import "./fonts/Ubuntu-Medium.ttf";
+import "./fonts/Ubuntu-MediumItalic.ttf";
+import "./fonts/Ubuntu-Regular.ttf";
+
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
@@ -25,7 +38,7 @@ const App = () => {
 
   return (
     <div>
-      <Navigation />
+      <Navigation data={landingPageData.Navigation}/>
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />

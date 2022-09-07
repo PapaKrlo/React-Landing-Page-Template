@@ -1,6 +1,6 @@
 body,
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Medium";
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
@@ -11,14 +11,15 @@ html {
 h2,
 h3,
 h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Regular";
 }
 h2 {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
+  font-family: "Regular";
   margin: 0 0 20px;
   font-weight: 800;
   font-size: 36px;
-  color: #333;
+  color: #15E384;
 }
 h3 {
   font-size: 20px;
@@ -81,17 +82,17 @@ hr {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 #menu a.navbar-brand {
-  font-family: "Raleway", sans-serif;
+  font-family: "Bold";
   font-size: 24px;
   font-weight: 700;
   color: #333;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 #menu.navbar-default .navbar-nav > li > a {
-  font-family: "Lato", sans-serif;
-  text-transform: uppercase;
+  font-family: "Regular";
+  /* text-transform: uppercase; */
   color: #555;
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 400;
   padding: 8px 2px;
   border-radius: 0;
@@ -163,8 +164,8 @@ hr {
   font-size: 18px;
 }
 .btn-custom {
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
+  font-family: "Regular";
+  /* text-transform: uppercase; */
   color: #fff;
   background-color: #5ca9fb;
   background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
@@ -208,8 +209,8 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
-  background-color: #e5e5e5;
+  /* background: url(../img/intro-bg.jpg) center center no-repeat; */
+  background-color: #154957;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -219,17 +220,17 @@ a:focus,
   background: rgba(0, 0, 0, 0.2);
 }
 .intro h1 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Medium";
   color: #fff;
   font-size: 82px;
   font-weight: 700;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin-top: 0;
   margin-bottom: 10px;
 }
 .intro h1 span {
   font-weight: 800;
-  color: #5ca9fb;
+  color: #15E384;
 }
 .intro p {
   color: #fff;
@@ -510,7 +511,7 @@ header .intro-text {
 label {
   font-size: 12px;
   font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Regular";
   float: left;
 }
 #contact .form-control {
