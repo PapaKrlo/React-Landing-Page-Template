@@ -1,4 +1,5 @@
-export const Navigation = ({logo, title}) => {
+import logo from '../logos/futura-casa-365.svg';
+export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
@@ -20,7 +21,7 @@ export const Navigation = ({logo, title}) => {
           <img
             src={logo}
             className='img-responsive'
-            alt={title}
+            alt={"Futura Casa 365 logo"}
           />{' '}
 
           <a className='navbar-brand page-scroll' href='#page-top'>
