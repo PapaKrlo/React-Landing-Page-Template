@@ -15,3 +15,12 @@
 .logo-image{
     width: 50%;
 }
+.wide-image{
+    width: 100%;
+}
+.bg-w{
+    background-color: white;
+}
+.icon-image{
+    width: 60px;
+}

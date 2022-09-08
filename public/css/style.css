@@ -311,14 +311,17 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: #fff;
+  /* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
+  background-color: white;
+  /* color: #fff; */
+  color: black;
 }
 #services .service-desc {
   margin: 10px 10px 20px;
 }
 #services h2 {
-  color: #fff;
+  /* color: #fff; */
+  color: black;
 }
 #services .section-title h2::after {
   position: absolute;
@@ -337,16 +340,17 @@ header .intro-text {
   padding: 40px 0;
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   border-radius: 50%;
-  color: #fff;
+  color: black;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 #services h3 {
   font-weight: 500;
   padding: 5px 0;
-  color: #fff;
+  color: black;
 }
 #services p {
-  color: rgba(255, 255, 255, 0.75);
+  /* color: rgba(255, 255, 255, 0.75); */
+  color: black;
 }
 #services .service-desc {
   margin-bottom: 40px;
