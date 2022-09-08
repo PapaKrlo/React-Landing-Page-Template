@@ -1,4 +1,4 @@
-import logo from '../logos/futura-casa-365.svg';
+import logo from '../logos/logo-full-tu-casa-365.svg';
 import "../my-styles.css"
 export const Navigation = (props) => {
   return (
@@ -19,16 +19,13 @@ export const Navigation = (props) => {
           </button>
           {/* <img src="./logos/futura-casa-365/png" alt="Futura casa 365 logo"></img> */}
           <div className="dflex">
+          <a href='#page-top'> 
             <img
               src={logo}
               className='logo-image img-responsive'
               alt={"Futura Casa 365 logo"}
             />{' '}
-            <div className="logo-text">
-              <a className='navbar-brand page-scroll' href='#page-top'>
-                Futura Casa 365
-              </a>{' '}
-            </div>
+            </a>{' '}
            
           </div>
 
