@@ -1,0 +1,17 @@
+.dflex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.logo-text{
+    display: flex; 
+    align-items:center; 
+    padding-left: 30px;
+}
+.logo-image{
+    width: 50px;
+}
