@@ -12,12 +12,12 @@ export const Services = (props) => {
           />
       
         </div>
-        <div className='row'>
+        <div className='row p-40'>
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className='col-md-4'>
+                <div key={`${d.name}-${i}`} className='col-md-4 min-height-260'>
                   {' '}
-                  <img className="icon-image" src={d.icon} alt=""/>
+                  <img className="iconos" src={d.icon} alt=""/>
                   <div className='service-desc'>
                     <h3>{d.name}</h3>
                     <p>{d.text}</p>

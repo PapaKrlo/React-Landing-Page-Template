@@ -5,7 +5,7 @@
     "paragraph": "Con tu casa 365, ayudas a las personas que más lo necesitan mientras que recibes una rentabilidad generada gracias a la tecnología."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Casa 365 es una inversión, no una donación, que le permite reciclar su dinero y crear un impacto personal en todo el mundo. Además, puede retirar sus fondos en cualquier momento. ",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
@@ -75,7 +75,7 @@
     {
       "icon": "img/icons/contract.svg",
       "name": "Préstamos",
-      "text": "Los prestamos de Casa 365 tienen una taza de reembolso de 96%"
+      "text": "Los prestamos de Casa 365 tienen una tasa de reembolso de 96%"
     },
     {
       "icon": "img/icons/location.svg",
@@ -118,24 +118,14 @@
   ],
   "Team": [
     {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
+      "img": "img/hombre-mock.png",
+      "job": "He estado prestando en Casa 365 desde 2009 y me emociona cada vez que recibo un correo electrónico de que he recibido reembolsos y puedo hacer otro préstamo.",
+      "name": "Juan, "
     },
     {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+      "img": "img/mujer-mock.png",
+      "job": "Es fácil marcar la diferencia en la vida de alguien a través de Kiva. Acabo de hacer mi préstamo número 11 a una madre soltera en Nicaragua. Los mismos $25 prestados una y otra vez.",
+      "name": "Carla, "
     }
   ],
   "Contact": {
@@ -160,7 +150,7 @@
     {
       "icon": "img/icons/piggy.svg",
       "name": "Reembolso",
-      "text": "Los prestatarios de Casa 365 tienen una tasa de reembolso del 96 %."
+      "text": "Los prestatarios de Casa 365 tienen un reembolso del 96%."
     },
     {
       "icon": "img/icons/repeat.svg",

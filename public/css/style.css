@@ -3,7 +3,7 @@ html {
   font-family: "Medium";
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
-  color: #777;
+  /* color: #777; */
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
@@ -24,7 +24,7 @@ h2 {
 h3 {
   font-size: 20px;
   font-weight: 600;
-  color: #333;
+  color: #154957;
 }
 h4 {
   font-size: 18px;
@@ -37,7 +37,8 @@ h5 {
   line-height: 20px;
 }
 p {
-  font-size: 15px;
+  font-size: 16px;
+  color: #3b3b3b;
 }
 p.intro {
   margin: 12px 0 0;
@@ -264,7 +265,7 @@ header .intro-text {
 /* About Section */
 #about {
   padding: 100px 0;
-  background: #F2F2F2;
+  background: linear-gradient(to right, #092831 0%, #154957 26%, #7fd8ae 47%, #F2F2F2 60%);
 }
 #about h3 {
   font-size: 22px;
@@ -301,9 +302,7 @@ header .intro-text {
 #about img {
   width: 520px;
   margin-top: 10px;
-  background: #F2F2F2;
   border-right: 0;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
 }
 #about p {
   line-height: 24px;
@@ -313,7 +312,7 @@ header .intro-text {
 #services {
   padding: 100px 0;
   /* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
-  background-color: white;
+  background-color: #F2F2F2;
   /* color: #fff; */
   color: black;
 }
@@ -345,14 +344,10 @@ header .intro-text {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 #services h3 {
-  font-weight: 500;
   padding: 5px 0;
-  color: black;
+  color: #154957;
 }
-#services p {
-  /* color: rgba(255, 255, 255, 0.75); */
-  color: black;
-}
+
 #services .service-desc {
   margin-bottom: 40px;
 }
@@ -459,6 +454,7 @@ header .intro-text {
   background: transparent;
   border: 0;
 }
+
 #team .thumbnail .caption {
   padding: 10px 0 0;
   color: #888;
