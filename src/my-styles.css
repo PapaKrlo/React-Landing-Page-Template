@@ -100,7 +100,13 @@
 }
 
 #team p {
-    color: #15E384;
+    color: #F2F2F2;
+    font-family: "Regular";
+
+}
+
+#team h2 {
+    color: #F2F2F2;
     font-family: "Regular";
 
 }

@@ -17,7 +17,6 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          {/* <img src="./logos/futura-casa-365/png" alt="Futura casa 365 logo"></img> */}
           <div className="dflex">
           <a href='#page-top'> 
             <img
