@@ -67,7 +67,7 @@
 }
 
 #features {
-    background: linear-gradient(to bottom,#154957 0%, #154957 55%, #F2F2F2 55%, #F2F2F2 100%);
+    background: linear-gradient(to bottom,#154957 0%, #154957 52%, #F2F2F2 52%, #F2F2F2 100%);
   }
 
 .h2-como-funciona {
@@ -116,4 +116,12 @@
     color: #15E384;
     font-family: "Light";
 
+}
+
+#contact p {
+    color: #f2f2f2;
+}
+
+#contact button {
+    color: #f2f2f2;
 }
