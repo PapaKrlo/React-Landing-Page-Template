@@ -13,7 +13,7 @@ export const Gallery = (props) => {
           <a className='anchor-p' id='part'></a>
           <p>
               Algunas de las compañias con las que estamos asociados para crear una diferencia.
-              Te interesa asociarte con nosotros?
+              <br></br>Te interesa asociarte con nosotros?
           </p>
           <button className="btn btn-custom btn-gallery">Asóciate ahora</button>
         </div>
