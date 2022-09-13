@@ -3,9 +3,10 @@ export const Image = ({ title, largeImage, smallImage }) => {
     <div className='portfolio-item'>
       <div className='hover-bg'>
         {' '}
+        {/* eslint-disable-next-line */}
         <a
-          href={largeImage}
-          title={title}
+          // href={largeImage}
+          // title={title}
           data-lightbox-gallery='gallery1'
         >
           <div className='hover-text'>

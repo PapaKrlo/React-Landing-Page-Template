@@ -40,6 +40,8 @@ export const Contact = (props) => {
             <div className='row'>
               <div className='section-title'>
                 <h2>Contáctanos</h2>
+                {/* eslint-disable-next-line */}
+                <a className='anchor-c' id='cont'></a>
                 <p>
                   Si deseas contactarte con nosotros llena el formulario de abajo
                   y te responderemos tan pronto sea posible.
@@ -127,17 +129,20 @@ export const Contact = (props) => {
               <div className='social'>
                 <ul>
                   <li>
-                    <a href={props.data ? props.data.facebook : '/'}>
+                    {/* eslint-disable-next-line */}
+                    <a href={props.data ? props.data.facebook : '/'} target='_blank'>
                       <i className='fa fa-facebook'></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.twitter : '/'}>
+                    {/* eslint-disable-next-line */}
+                    <a href={props.data ? props.data.twitter : '/'} target='_blank'>
                       <i className='fa fa-twitter'></i>
                     </a>
                   </li>
                   <li>
-                    <a href={props.data ? props.data.youtube : '/'}>
+                    {/* eslint-disable-next-line */}
+                    <a href={props.data ? props.data.youtube : '/'} target='_blank'>
                       <i className='fa fa-youtube'></i>
                     </a>
                   </li>

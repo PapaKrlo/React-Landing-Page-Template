@@ -64,10 +64,16 @@
     align-items: center;
     justify-content: center;
     border: 4px solid #154957;
+    transition: transform 0.8s ease-in-out;
+}
+
+.div-como-funciona:hover {
+    transform: rotateY(180deg);
 }
 
 #features {
     background: linear-gradient(to bottom,#154957 0%, #154957 52%, #F2F2F2 52%, #F2F2F2 100%);
+    padding: 100px;
   }
 
 .h2-como-funciona {
@@ -130,4 +136,95 @@
 
 #contact button {
     color: #f2f2f2;
+}
+
+.my-offset {
+    right: 20%;
+}
+
+.about-button{
+    margin-top: 40%;
+    margin-left: 25%;
+}
+
+#about button {
+    font-size: 40px;
+    font-family: "Bold";
+}
+
+#header span {
+    animation: color-change-1 7s;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes color-change-1 {
+    0% {
+        color: #f2f2f2;
+    }
+    100% {
+        color: #15E384;
+    }
+}
+
+.anchor-cf {
+    position: absolute;
+    top: -22vh; 
+    left: 0px;
+  }
+
+.anchor-i {
+    position: absolute;
+    top: -28vh; 
+    left: 0px;
+  }
+
+.anchor-p {
+    position: absolute;
+    top: -22vh; 
+    left: 0px;
+  }
+
+.anchor-t {
+    position: absolute;
+    top: -24vh; 
+    left: 0px;
+  }
+
+.anchor-c {
+    position: absolute;
+    top: -24vh; 
+    left: 0px;
+  }
+
+
+.btn-gallery {
+    margin: 30px;
+}
+
+#portfolio {
+    background: linear-gradient(to top,#154957 0%, #F2F2F2 50%);
+}
+
+#portfolio .btn-custom {
+    background: transparent;
+    border: 2px solid #154957;
+    color: #154957;
+}
+
+#portfolio .btn-custom:hover {
+    background: #154957;
+    color: #f2f2f2;
+}
+
+#features h2::after {
+    background: #F2F2F2;
+}
+
+#portfolio h2 {
+    color: #154957;
+}
+
+#team h2::after {
+    background: #F2F2F2;
 }

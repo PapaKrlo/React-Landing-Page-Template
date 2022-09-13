@@ -5,6 +5,8 @@ export const Features = (props) => {
       <div className='container'>
         <div className='col-md-10 col-md-offset-1 section-title p-40'>
           <h2 className="h2-como-funciona">¿Cómo funciona?</h2>
+          {/* eslint-disable-next-line */}
+          <a className='anchor-cf' id='comofun'></a>
         </div>
         <div className='row p-40'>
           {props.data
