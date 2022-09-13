@@ -12,7 +12,7 @@ export const Services = (props) => {
           />
       
         </div>
-        <div className='row p-40'>
+        <div className='row m-80'>
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className='col-md-4 min-height-260'>
