@@ -21,6 +21,12 @@ h2 {
   font-size: 36px;
   color: #15E384;
 }
+@media only screen and (max-width: 480px) {
+  h2 {
+    font-size: 32px;
+    margin-top: 20px;
+    }
+  }
 h3 {
   font-size: 20px;
   font-weight: 600;
@@ -40,6 +46,12 @@ p {
   font-size: 16px;
   color: #3b3b3b;
 }
+@media only screen and (max-width: 480px) {
+  p {
+    font-size: 16px;
+    color: #3b3b3b;
+  }
+  }
 p.intro {
   margin: 12px 0 0;
   line-height: 24px;
@@ -136,15 +148,20 @@ hr {
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #fff;
-  border-color: #608dfd;
+  background-color: #f2f2f2;
+  border-color: #15E384;
 }
 .navbar-default .navbar-toggle:hover > .icon-bar {
-  background-color: #608dfd;
+  background-color: #15E384;
 }
 .section-title {
   margin-bottom: 40px;
 }
+@media only screen and (max-width: 480px) {
+  .section-title {
+    margin-bottom: 0px;
+    }
+  }
 .section-title h2 {
   position: relative;
   margin-top: 10px;
@@ -218,9 +235,7 @@ a:focus,
   background-size: cover;
   -o-background-size: cover;
 }
-.intro .overlay {
-  /* background: rgba(0, 0, 0, 0.2); */
-}
+
 .intro h1 {
   font-family: "Medium";
   color: #fff;
@@ -229,6 +244,12 @@ a:focus,
   /* text-transform: uppercase; */
   margin-top: 0;
   margin-bottom: 10px;
+}
+@media only screen and (max-width: 480px) {
+.intro h1 {
+  font-size: 60px; 
+  margin-bottom: 50px;
+  }
 }
 
 .intro h1 span {
@@ -243,11 +264,27 @@ a:focus,
   margin: 0 auto;
   margin-bottom: 60px;
 }
+@media only screen and (max-width: 480px) {
+  .intro p {
+    font-size: 20px; 
+    text-align: center;
+    }
+  .intro h2 {
+    font-size: 24px;
+  }
+  }
+
 header .intro-text {
   padding-top: 240px;
   padding-bottom: 170px;
   text-align: left;
 }
+@media only screen and (max-width: 480px) {
+  header .intro-text {
+    padding-top: 220px;
+    text-align: center; 
+    }
+  }
 /* Features Section */
 #features {
   background: #f6f6f6;
@@ -261,7 +298,7 @@ header .intro-text {
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  /* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
@@ -269,6 +306,11 @@ header .intro-text {
   padding: 130px;
   background: linear-gradient(to right, #092831 0%, #154957 25%, #7fd8ae 100% );
 }
+@media only screen and (max-width: 480px) {
+#about {
+    padding: 0;
+    }
+  }
 #about h3 {
   font-size: 22px;
   margin: 0 0 20px;
@@ -306,6 +348,12 @@ header .intro-text {
   margin-top: 10px;
   border-right: 0;
 }
+@media only screen and (max-width: 480px) {
+#about img {
+      width: 100%;
+      margin-top: 15px;
+    }
+  }
 #about p {
   line-height: 24px;
   margin: 30px 0;
@@ -603,8 +651,3 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
-@media (max-width: 768px) {
-  #about img {
-    margin: 50px 0;
-  }
-}

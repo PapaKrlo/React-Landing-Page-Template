@@ -5,7 +5,7 @@ export const About = (props) => {
     <div id="about">
       <div className="container">
         <div className="row">
-          <div className="col-xs-12 col-md-6">
+          <div className="col-md-6">
             <div className="about-text">
               <h1 className="big-text">Inversión,<span className="small-text"><br></br> no donación</span></h1>
               {/* eslint-disable-next-line */}
@@ -16,11 +16,14 @@ export const About = (props) => {
               src={image} 
               alt="Imagen prestamo"
               />
+              <button type='' className='btn btn-custom btn-lg small-screen-btn'>
+              Invierte con nosotros
+              </button>
             </div>
           </div>
-          <div className="col-xs-12 col-md-6">
+          <div className="col-md-6 col-xs-12">
             <div className="about-button">
-              <button type='submit' className='btn btn-custom btn-lg'>
+              <button type='' className='btn btn-custom btn-lg browser-btn'>
                   Invierte con nosotros
                 </button>
             </div>

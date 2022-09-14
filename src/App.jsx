@@ -11,8 +11,6 @@ import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 
-//stylesheet
-import "./App.css";
 
 //fonts
 import "./fonts/Ubuntu-Bold.ttf";
