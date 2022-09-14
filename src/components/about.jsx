@@ -1,4 +1,5 @@
 import image from "../images/invest-img.png"
+import image2 from "../images/invest-img-mobile.png"
 
 export const About = (props) => {
   return (
@@ -14,6 +15,11 @@ export const About = (props) => {
               <img 
               className="wide-image"
               src={image} 
+              alt="Imagen prestamo"
+              />
+              <img 
+              className="wide-image-2"
+              src={image2} 
               alt="Imagen prestamo"
               />
               <button type='' className='btn btn-custom btn-lg small-screen-btn'>

@@ -23,7 +23,7 @@ h2 {
 }
 @media only screen and (max-width: 480px) {
   h2 {
-    font-size: 32px;
+    font-size: 38px;
     margin-top: 20px;
     }
   }
@@ -31,6 +31,11 @@ h3 {
   font-size: 20px;
   font-weight: 600;
   color: #154957;
+}
+@media only screen and (max-width: 480px) {
+  #features h3 {
+    font-size: 24px;
+  }
 }
 h4 {
   font-size: 18px;
@@ -48,7 +53,7 @@ p {
 }
 @media only screen and (max-width: 480px) {
   p {
-    font-size: 16px;
+    font-size: 18.5px;
     color: #3b3b3b;
   }
   }
@@ -181,6 +186,11 @@ hr {
 .section-title p {
   font-size: 18px;
 }
+@media only screen and (max-width: 480px) {
+  .section-title p {
+    font-size: 19px;
+  }
+}
 .btn-custom {
   font-family: "Bold";
   /* text-transform: uppercase; */
@@ -309,6 +319,7 @@ header .intro-text {
 @media only screen and (max-width: 480px) {
 #about {
     padding: 0;
+    background: linear-gradient(120deg, #092831 0%, #154957 20%, #7fd8ae 100% );
     }
   }
 #about h3 {
@@ -366,6 +377,11 @@ header .intro-text {
   /* color: #fff; */
   color: black;
 }
+@media only screen and (max-width: 480px) {
+  #services {
+    padding: 0;
+      }
+    }
 #services .service-desc {
   margin: 10px 10px 20px;
 }
@@ -397,6 +413,11 @@ header .intro-text {
   padding: 5px 0;
   color: #154957;
 }
+@media only screen and (max-width: 480px) {
+  #services h3 {
+    font-size: 24px;
+      }
+    }
 
 #services .service-desc {
   margin-bottom: 40px;
@@ -495,6 +516,12 @@ header .intro-text {
 #team {
   padding: 110px 0;
 }
+@media only screen and (max-width: 480px) {
+  #team {
+    padding: 60px 0;
+  }
+    }
+
 #team h4 {
   margin: 5px 0;
 }
@@ -515,6 +542,11 @@ header .intro-text {
   padding: 100px 0 60px;
   background: linear-gradient(to bottom,#154957 0%,#154957 1%,#7fd8ae 100%, #7fd8ae 100%);
 }
+@media only screen and (max-width: 480px) {
+#contact {
+  padding: 50px 0 60px;  
+    }
+  }
 #contact .section-title {
   margin-bottom: 40px;
 }
@@ -546,15 +578,37 @@ header .intro-text {
 #contact form {
   padding-top: 20px;
 }
-#contact .text-danger {
-  color: #cc0033;
-  text-align: left;
-}
+
 #contact .btn-custom {
   margin: 30px 0;
   background: transparent;
   border: 2px solid #fff;
 }
+
+@media only screen and (max-width: 480px) {
+#contact h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: "Bold";
+    }
+    #contact .section-title p {
+      font-size: 19px;
+    }
+    #contact form {
+      padding-top: 0;
+    }
+    #contact .btn-custom {
+      margin: 0;
+      margin-top: 14px;
+      margin-bottom: 18px;
+
+    }
+  }
+#contact .text-danger {
+  color: #cc0033;
+  text-align: left;
+}
+
 #contact .btn-custom:hover {
   color: #154957;
   background: #fff;
@@ -650,4 +704,3 @@ label {
 #footer a:hover {
   border-bottom: 2px solid #608dfd;
 }
-

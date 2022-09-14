@@ -11,7 +11,7 @@ export const Features = (props) => {
         <div className='row'>
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.name}-${i}`} className='col-xs-6 col-md-3 min-height-260'>
+                <div key={`${d.name}-${i}`} className='col-xs-6 col-md-3 min-height-260 margin-mobile-cf'>
                   {' '}
                   <div className="div-como-funciona">
                   <img className="iconos" src={d.icon} alt=""></img>
