@@ -242,7 +242,7 @@
   }
   @media only screen and (max-width: 480px) {
     .anchor-cf {
-        top: -11vh; 
+        top: -10vh; 
       }
     }
 
@@ -262,12 +262,22 @@
     top: -26vh; 
     left: 0px;
   }
+@media only screen and (max-width: 480px) {
+    .anchor-p {
+        top: -18vh; 
+      }
+    }
 
 .anchor-t {
     position: absolute;
     top: -26vh; 
     left: 0px;
   }
+  @media only screen and (max-width: 480px) {
+    .anchor-t {
+        top: -18vh; 
+      }
+    }
 
 .anchor-c {
     position: absolute;
