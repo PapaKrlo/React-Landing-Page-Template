@@ -15,6 +15,12 @@
 .logo-image{
     width: 50%;
 }
+@media only screen and (max-width: 900px) {
+    .logo-image{
+        width: 100px;
+        margin-top: 10px;
+    }  
+}
 .wide-image{
     width: 100%;
 }
@@ -29,7 +35,7 @@
 .wide-image-2{
             display: flex;
         }
-      }
+}
 
 .bg-w{
     background-color: white;
@@ -60,6 +66,9 @@
         padding-bottom: 30px;
         padding-top: 40px;
 
+        }
+    .ul-nav {
+            padding: 0;
         }
       }
 
@@ -92,27 +101,37 @@
     border: 4px solid #154957;
     transition: transform 0.5s ease-in-out;
 }
-@media only screen and (max-width: 480px) {
-    .div-como-funciona {
-        height: 20%;
-        }
-      }
 
+@media only screen and (max-width: 900px) {
+    .div-como-funciona {
+        height: 310px;
+        }
+    }
+@media only screen and (max-width: 480px) {
+     .div-como-funciona {
+      height: 20%;
+         }
+  }
 .div-como-funciona:hover {
     transform: rotateY(180deg);
 }
 
 #features {
     background: linear-gradient(to bottom,#154957 0%, #154957 52%, #F2F2F2 52%, #F2F2F2 100%);
-    padding: 100px;
+    padding: 100px 0px;
   }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 900px) {
     #features {
         padding: 0;
-        background: linear-gradient(to bottom,#092831 0%, #154957 8%, #154957 17%, #F2F2F2 17%, #F2F2F2 100%);
+        background: linear-gradient(to bottom,#092831 0%, #154957 8%, #154957 12%, #F2F2F2 12%, #F2F2F2 100%);
         }
       }
-
+@media only screen and (max-width: 480px) {
+     #features {
+         padding: 0;
+        background: linear-gradient(to bottom,#092831 0%, #154957 8%, #154957 17%, #F2F2F2 17%, #F2F2F2 100%);
+        }
+    }
 .h2-como-funciona {
     color: #F2F2F2;
 
@@ -146,6 +165,14 @@
     font-size: 17px;
     line-height: 160%;
 }
+@media only screen and (max-width: 900px) {
+    #about p {
+       font-size: 24px; 
+       line-height: 200%;
+       font-family: "Light";
+       }
+   }
+
 @media only screen and (max-width: 480px) {
     #about p {
         font-size: 20px;
@@ -153,7 +180,6 @@
         font-family: "Light";
         }
       }
-
 
 #team {
     background: #154957;
@@ -201,24 +227,37 @@
     margin-top: 40%;
     margin-left: 25%;
 }
+@media only screen and (max-width: 900px) {
+    .about-button{
+            margin-top: 40px;
+            margin-left: 0;
+    }
+}
+
 @media only screen and (max-width: 480px) {
-.about-button{
+    .about-button{
         margin-top: 30%;
         margin-left: 25%;
     }
 }
+
 
 #about button {
     font-size: 32px;
     font-family: "Bold";
     width: 100%;
 }
+@media only screen and (max-width: 900px) {
+    #about button {
+        width: 100%;
+        margin-top: 60px;
+      }
+    }
 @media only screen and (max-width: 480px) {
     #about button {
         font-size: 27px; 
       }
     }
-
 
 #header span {
     animation: color-change-1 7s;
@@ -240,53 +279,91 @@
     top: -22vh; 
     left: 0px;
   }
+  @media only screen and (max-width: 900px) {
+    .anchor-cf {
+            top: -8vh; 
+        }
+    }
   @media only screen and (max-width: 480px) {
     .anchor-cf {
         top: -10vh; 
       }
     }
 
+
 .anchor-i {
     position: absolute;
     top: -28vh; 
     left: 0px;
   }
+  @media only screen and (max-width: 900px) {
+    .anchor-i {
+        top: -23vh; 
+      }
+    }
   @media only screen and (max-width: 480px) {
     .anchor-i {
         top: -19vh; 
       }
-    }
+  }
 
 .anchor-p {
     position: absolute;
     top: -26vh; 
     left: 0px;
   }
+  @media only screen and (max-width: 1200px) {
+    .anchor-p {
+         top: -21vh; 
+      }
+     }
+  @media only screen and (max-width: 900px) {
+    .anchor-p {
+         top: -29vh; 
+      }
+     }
 @media only screen and (max-width: 480px) {
     .anchor-p {
         top: -18vh; 
       }
     }
 
+
 .anchor-t {
     position: absolute;
     top: -26vh; 
     left: 0px;
   }
+  @media only screen and (max-width: 900px) {
+    .anchor-t {
+         top: -30vh; 
+     }
+    }
   @media only screen and (max-width: 480px) {
     .anchor-t {
         top: -18vh; 
       }
     }
 
+
 .anchor-c {
     position: absolute;
     top: -24vh; 
     left: 0px;
   }
+@media only screen and (max-width: 1200px) {
+    .anchor-c {
+         top: -18vh; 
+      }
+     }
+@media only screen and (max-width: 900px) {
+        .anchor-c {
+            top: -16vh; 
+          }
+        }  
   @media only screen and (max-width: 480px) {
     .anchor-c {
-        top: -18vh; 
+        top: -17vh; 
       }
     }
 
@@ -351,4 +428,18 @@
     .margin-mobile-cf {
         margin-top: 40px;
     }
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+
+@media only screen and (max-width: 480px) {
+    .navbar-default .navbar-toggle {
+        margin-top: 35px;
+    }
+}
+
+#root {
+    overflow-x: hidden;
 }

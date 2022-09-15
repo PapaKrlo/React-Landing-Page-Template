@@ -32,6 +32,12 @@ h3 {
   font-weight: 600;
   color: #154957;
 }
+
+@media only screen and (max-width: 900px) {
+  #features h3 {
+    font-size: 26px;
+  }
+}
 @media only screen and (max-width: 480px) {
   #features h3 {
     font-size: 24px;
@@ -51,11 +57,26 @@ p {
   font-size: 16px;
   color: #3b3b3b;
 }
-@media only screen and (max-width: 480px) {
-  p {
-    font-size: 18.5px;
-    color: #3b3b3b;
+@media only screen and (max-width: 900px) {
+   p {
+    font-size: 20px;
+   }
+   #features p {
+    margin-bottom: 36px;
+   }
+   #features .row {
+    margin-bottom: 36px;
+   }
+   #about .row {
+    margin-bottom: 95px;
+    margin-top: 40px;
+   }
   }
+@media only screen and (max-width: 480px) {
+    p {
+      font-size: 18.5px;
+      color: #3b3b3b;
+    }
   }
 p.intro {
   margin: 12px 0 0;
@@ -162,8 +183,13 @@ hr {
 .section-title {
   margin-bottom: 40px;
 }
+@media only screen and (max-width: 900px) {
+   .section-title {
+    margin-bottom: 15px;
+    }
+  }
 @media only screen and (max-width: 480px) {
-  .section-title {
+    .section-title {
     margin-bottom: 0px;
     }
   }
@@ -274,27 +300,36 @@ a:focus,
   margin: 0 auto;
   margin-bottom: 60px;
 }
-@media only screen and (max-width: 480px) {
-  .intro p {
-    font-size: 20px; 
-    text-align: center;
-    }
-  .intro h2 {
-    font-size: 24px;
-  }
-  }
 
 header .intro-text {
   padding-top: 240px;
   padding-bottom: 170px;
   text-align: left;
 }
-@media only screen and (max-width: 480px) {
-  header .intro-text {
-    padding-top: 220px;
-    text-align: center; 
+
+@media only screen and (max-width: 900px) {
+    header .intro-text {
+      padding-top: 440px;
+      padding-bottom: 380px;
+      text-align: center; 
+      }
+      .intro p {
+        line-height: 35px;
+        }
     }
-  }
+    @media only screen and (max-width: 480px) {
+      header .intro-text {
+        padding-top: 220px;
+        text-align: center; 
+        }
+      .intro p {
+        font-size: 20px; 
+        text-align: center;
+        }
+      .intro h2 {
+        font-size: 24px;
+      }
+      }
 /* Features Section */
 #features {
   background: #f6f6f6;
@@ -313,15 +348,21 @@ header .intro-text {
 }
 /* About Section */
 #about {
-  padding: 130px;
+  padding: 130px 0px;
   background: linear-gradient(to right, #092831 0%, #154957 25%, #7fd8ae 100% );
 }
+@media only screen and (max-width: 900px) {
+  #about {
+    padding: 30px;
+    }
+ }
 @media only screen and (max-width: 480px) {
 #about {
     padding: 0;
     background: linear-gradient(120deg, #092831 0%, #154957 20%, #7fd8ae 100% );
     }
   }
+
 #about h3 {
   font-size: 22px;
   margin: 0 0 20px;
@@ -369,6 +410,7 @@ header .intro-text {
   line-height: 24px;
   margin: 30px 0;
 }
+
 /* Services Section */
 #services {
   padding: 100px 0;
@@ -433,8 +475,13 @@ header .intro-text {
 .portfolio-item .hover-bg {
   overflow: hidden;
   position: relative;
-  margin: 28px;
+  margin: 34px;
 }
+@media only screen and (max-width: 480px) {
+  .portfolio-item .hover-bg {
+    margin: 64px;
+  }
+    }
 .hover-bg .hover-text {
   position: absolute;
   text-align: center;
@@ -516,11 +563,17 @@ header .intro-text {
 #team {
   padding: 110px 0;
 }
+@media only screen and (max-width: 900px) {
+  #team {
+    padding: 90px 0;
+  }
+}
 @media only screen and (max-width: 480px) {
   #team {
     padding: 60px 0;
   }
-    }
+}
+
 
 #team h4 {
   margin: 5px 0;
@@ -553,6 +606,16 @@ header .intro-text {
 #contact .section-title p {
   font-size: 16px;
 }
+@media only screen and (max-width: 900px) {
+  #contact .section-title p {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #contact .section-title p {
+    font-size: 16px;
+  }
+}
 #contact h2 {
   color: #fff;
   margin-top: 10px;
@@ -574,6 +637,12 @@ header .intro-text {
   margin-bottom: 25px;
   padding-bottom: 20px;
   font-weight: 400;
+}
+@media only screen and (max-width: 900px) {
+  #contact h3 {
+    margin-top: 0px;
+    font-family: "Bold";
+  }
 }
 #contact form {
   padding-top: 20px;
