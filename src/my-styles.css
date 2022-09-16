@@ -126,6 +126,16 @@
         height: 15%; 
       }
     }
+    @media only screen and (max-width: 390px) {
+        .div-como-funciona {
+            height: 20%; 
+          }
+        }
+ @media only screen and (max-width: 390px) {
+         .div-como-funciona {
+            height: 15%; 
+         }
+      }
   @media only screen and (max-width: 320px) {
     .div-como-funciona {
      height: 13%;
@@ -513,4 +523,11 @@
 
 #root {
     overflow-x: hidden;
+}
+
+@media only screen and (min-width: 768px) {
+    .bm-burger-button {
+        display: none;
+    
+    }
 }
