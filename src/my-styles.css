@@ -48,6 +48,11 @@
     max-width: 160px;
     height: 120px;
 }
+@media only screen and (max-width: 320px) {
+    .iconos{
+        max-width: 115px;
+    }
+      }
 
 .ul-nav {
     display: flex;
@@ -116,6 +121,16 @@
       height: 20%;
          }
   }
+  @media only screen and (max-width: 412px) {
+    .div-como-funciona {
+        height: 15%; 
+      }
+    }
+  @media only screen and (max-width: 320px) {
+    .div-como-funciona {
+     height: 13%;
+        }
+ }
 .div-como-funciona:hover {
     transform: rotateY(180deg);
 }
@@ -124,6 +139,11 @@
     background: linear-gradient(to bottom,#154957 0%, #154957 52%, #F2F2F2 52%, #F2F2F2 100%);
     padding: 100px 0px;
   }
+  @media only screen and (min-width: 1700px) {
+    #features {
+        padding: 210px 0px;
+      }
+    }
 @media only screen and (max-width: 900px) {
     #features {
         padding: 0;
@@ -264,9 +284,29 @@
     }
 @media only screen and (max-width: 480px) {
     #about button {
-        font-size: 27px; 
+        font-size: 26.5px; 
       }
     }
+@media only screen and (max-width: 425px) {
+        #about button {
+            font-size: 30.5px; 
+          }
+        }
+@media only screen and (max-width: 412px) {
+        #about button {
+            font-size: 25.5px; 
+          }
+        }
+@media only screen and (max-width: 360px) {
+     #about button {
+         font-size: 23px; 
+     }
+    }
+@media only screen and (max-width: 360px) {
+  #about button {
+        font-size: 20px; 
+    }
+   }
 
 #header span {
     animation: color-change-1 7s;
@@ -288,6 +328,11 @@
     top: -22vh; 
     left: 0px;
   }
+  @media only screen and (min-width: 1700px) {
+    .anchor-cf {
+            top: -30vh; 
+        }
+    }
   @media only screen and (max-width: 900px) {
     .anchor-cf {
             top: -8vh; 
@@ -305,6 +350,12 @@
     top: -28vh; 
     left: 0px;
   }
+  @media only screen and (min-width: 1700px) {
+    .anchor-i {
+        position: absolute;
+        top: -34vh; 
+      }
+    }
   @media only screen and (max-width: 900px) {
     .anchor-i {
         top: -23vh; 
@@ -343,6 +394,12 @@
     top: -26vh; 
     left: 0px;
   }
+  @media only screen and (min-width: 1700px) {
+    .anchor-t {
+        position: absolute;
+        top: -34vh; 
+      }
+    }
   @media only screen and (max-width: 900px) {
     .anchor-t {
          top: -30vh; 
@@ -384,7 +441,7 @@
 
 
 .btn-gallery {
-    margin: 30px;
+    margin: 30px 0px;
 }
 
 #portfolio {

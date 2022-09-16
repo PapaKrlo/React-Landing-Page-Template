@@ -78,6 +78,30 @@ p {
       color: #3b3b3b;
     }
   }
+  @media only screen and (max-width: 425px) {
+    p {
+      font-size: 19.5px;
+      color: #3b3b3b;
+    }
+  }
+  @media only screen and (max-width: 375px) {
+    p {
+      font-size: 18.5px;
+      color: #3b3b3b;
+    }
+  }
+@media only screen and (max-width: 360px) {
+    p {
+      font-size: 17px;
+      color: #3b3b3b;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    p {
+      font-size: 15px;
+      color: #3b3b3b;
+    }
+  }
 p.intro {
   margin: 12px 0 0;
   line-height: 24px;
@@ -306,7 +330,14 @@ header .intro-text {
   padding-bottom: 170px;
   text-align: left;
 }
-
+@media only screen and (min-width: 1700px) {
+  header .intro-text {
+    padding-top: 450px;
+    padding-bottom: 310px;
+    text-align: center; 
+    width: 100%;
+    }
+  }
 @media only screen and (max-width: 900px) {
     header .intro-text {
       padding-top: 440px;
@@ -320,6 +351,7 @@ header .intro-text {
     @media only screen and (max-width: 480px) {
       header .intro-text {
         padding-top: 220px;
+        padding-bottom: 170px;
         text-align: center; 
         }
       .intro p {
@@ -330,6 +362,11 @@ header .intro-text {
         font-size: 24px;
       }
       }
+      @media only screen and (max-width: 360px) {
+        header .intro-text {
+          padding-bottom: 175px;
+          }
+        }
 /* Features Section */
 #features {
   background: #f6f6f6;
@@ -351,9 +388,14 @@ header .intro-text {
   padding: 130px 0px;
   background: linear-gradient(to right, #092831 0%, #154957 25%, #7fd8ae 100% );
 }
+@media only screen and (min-width: 1700px) {
+  #about {
+      padding: 250px 0px;
+    }
+  }
 @media only screen and (max-width: 900px) {
   #about {
-    padding: 30px;
+    padding: 30px 0px;
     }
  }
 @media only screen and (max-width: 480px) {
@@ -468,6 +510,11 @@ header .intro-text {
 #portfolio {
   padding: 60px 0;
 }
+@media only screen and (min-width: 1700px) {
+  #portfolio {
+      padding: 250px 0px;
+    }
+  }
 .portfolio-item {
   margin: 1px -15px 0 -14px;
   padding: 0;
@@ -563,6 +610,11 @@ header .intro-text {
 #team {
   padding: 110px 0;
 }
+@media only screen and (min-width: 1700px) {
+  #team {
+      padding: 250px 0px;
+    }
+  }
 @media only screen and (max-width: 900px) {
   #team {
     padding: 90px 0;
@@ -595,6 +647,11 @@ header .intro-text {
   padding: 100px 0 60px;
   background: linear-gradient(to bottom,#154957 0%,#154957 1%,#7fd8ae 100%, #7fd8ae 100%);
 }
+@media only screen and (min-width: 1700px) {
+  #contact {
+    padding: 195px 0 60px;
+  }
+  }
 @media only screen and (max-width: 480px) {
 #contact {
   padding: 50px 0 60px;  
